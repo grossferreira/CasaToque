@@ -1,0 +1,2 @@
+C:\Users\Rodrigo\MyApplication\CasaToque\app\build\intermediates\classes\debug
+C:\Users\Rodrigo\MyApplication\CasaToque\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-6a5fe4dffd387af2b31fe02914cea77a1ec1b89b.jar

@@ -1,0 +1,105 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+application
+ADDED from AndroidManifest.xml:14:5
+	android:label
+		ADDED from AndroidManifest.xml:17:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:15:9
+	android:icon
+		ADDED from AndroidManifest.xml:16:9
+	android:theme
+		ADDED from AndroidManifest.xml:18:9
+	android:logo
+		ADDED from AndroidManifest.xml:18:41
+activity#br.com.ar.casatoque.controle.Splash
+ADDED from AndroidManifest.xml:19:9
+	android:label
+		ADDED from AndroidManifest.xml:21:13
+	android:name
+		ADDED from AndroidManifest.xml:20:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:22:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:23:17
+	android:name
+		ADDED from AndroidManifest.xml:23:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:25:17
+	android:name
+		ADDED from AndroidManifest.xml:25:27
+activity#br.com.ar.casatoque.controle.LoginActivity
+ADDED from AndroidManifest.xml:28:9
+	android:name
+		ADDED from AndroidManifest.xml:28:19
+activity#br.com.ar.casatoque.controle.Principal
+ADDED from AndroidManifest.xml:28:88
+	android:name
+		ADDED from AndroidManifest.xml:28:98
+activity#br.com.ar.casatoque.controle.Lampadas
+ADDED from AndroidManifest.xml:29:9
+	android:name
+		ADDED from AndroidManifest.xml:29:19
+activity#br.com.ar.casatoque.controle.Perfis
+ADDED from AndroidManifest.xml:30:9
+	android:name
+		ADDED from AndroidManifest.xml:30:19
+activity#br.com.ar.casatoque.controle.Configuracoes
+ADDED from AndroidManifest.xml:30:81
+	android:name
+		ADDED from AndroidManifest.xml:30:91
+activity#br.com.ar.casatoque.menu.PoliticasPrivacidade
+ADDED from AndroidManifest.xml:31:9
+	android:name
+		ADDED from AndroidManifest.xml:31:19
+activity#br.com.ar.casatoque.menu.CentralAjuda
+ADDED from AndroidManifest.xml:31:72
+	android:name
+		ADDED from AndroidManifest.xml:31:82
+activity#br.com.ar.casatoque.menu.Tutorial
+ADDED from AndroidManifest.xml:31:127
+	android:name
+		ADDED from AndroidManifest.xml:31:137
+activity#br.com.ar.casatoque.menu.Sobre
+ADDED from AndroidManifest.xml:32:20
+	android:name
+		ADDED from AndroidManifest.xml:32:30
+activity#br.com.ar.casatoque.controle.HisCenas
+ADDED from AndroidManifest.xml:33:9
+	android:name
+		ADDED from AndroidManifest.xml:33:19

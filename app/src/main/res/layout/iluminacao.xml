@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@layout/header_gradient"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip" >
+
+        <ImageView
+            android:contentDescription = "@string/imgIluminacao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_people" />
+
+        <DigitalClock
+            android:id="@+id/relogio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relogio" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botaoLampada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/header"
+        android:layout_marginTop="19dp"
+        android:drawableLeft="@drawable/ic_communities"
+        android:text="@string/btIluminacao"/>
+
+    <Button
+        android:id="@+id/btDialSimp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/botaoLampada"
+        android:layout_alignBottom="@+id/botaoLampada"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="102dp"
+        android:drawableLeft="@drawable/ic_people" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Switch"
+        android:id="@+id/switch1"
+        android:layout_below="@+id/botaoLampada"
+        android:layout_alignRight="@+id/botaoLampada"
+        android:layout_alignEnd="@+id/botaoLampada" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton"
+        android:layout_below="@+id/switch1"
+        android:layout_alignRight="@+id/switch1"
+        android:layout_alignEnd="@+id/switch1" />
+
+</RelativeLayout>

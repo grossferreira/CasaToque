@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical">
+  	<TextView
+  		android:id="@+id/ePerfilNome"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:textColor="#FFFFFF"
+  		android:textSize="16sp"
+  		android:text="Nome do Perfil"
+  	/>
+  	<EditText
+  		android:id="@+id/ePerfilNomeEdit"
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  	/>
+  	<TextView
+  		android:id="@+id/ePerfilDia"
+  		android:layout_width="wrap_content"
+  		android:layout_height="wrap_content"
+  		android:textColor="#FFFFFF"
+  		android:textSize="16sp"
+  		android:text="Dias de Atividade"
+  	/>
+  	<LinearLayout
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content"
+  		android:orientation="horizontal">
+  		<RadioGroup
+  			android:id="@+id/RadioGroup"
+  			android:layout_width="wrap_content"
+  			android:layout_height="wrap_content"
+  			android:layout_alignParentLeft="true">						
+  			<RadioButton
+  				android:id="@+id/rbDiaDaSemana"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="Dias da Semana"
+  				android:checked="true"
+  			/>  	
+  			<RadioButton
+  				android:id="@+id/rbDataEspec"
+  				android:layout_width="wrap_content"
+  				android:layout_height="wrap_content"
+  				android:text="Data Específica"
+  			/>		 			
+  		</RadioGroup>
+  		<RelativeLayout
+  			android:layout_width="fill_parent"
+  			android:layout_height="fill_parent">
+  			<Button 
+				android:id="@+id/diaSelec" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:text="Selecionar..."
+				android:layout_alignParentRight="true"
+  				android:layout_centerVertical="true"
+			/>	  								
+  		</RelativeLayout>
+  	</LinearLayout>
+</LinearLayout>

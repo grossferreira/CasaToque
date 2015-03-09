@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Casa Toque</string>
+    <!-- Content Description -->
+    <string name="configuracao">Configuration</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="politicPrivacidade">Privacy Policy</string>
+    <string name="centralAjuda">Help Center</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="sobre">About</string>
+    <string name="Sair">Sign Out</string>
+    
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >Lighting</item>
+        <item >Irrigation</item>
+        <item >Climate</item>
+        <item >Multimedia</item>
+        <item >Security</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_lampada</item>
+        <item>@drawable/ic_jardin</item>
+        <item>@drawable/ic_climatizacao</item>
+        <item>@drawable/ic_midia</item>
+        <item>@drawable/ic_seguranca</item>
+    </array>
+
+    <!-- Tela de entrar principal -->
+    <string name="btEntrar">Enter</string>
+
+    <string name="confhttp">HTTP</string>
+    <string name="confhttps">HTTPS</string>
+    <string name="confporta">Port</string>
+    <string name="endServidor">Server Address</string>
+    <string name="configSalvar">Save</string>
+    <string name="confVoltar">Come back</string>
+    <string name="login">Login</string>
+    <string name="senha">Password</string>
+    <string name="lembLogin">Remember Login</string>
+    <string name="btentrar">Sign In</string>
+    <string name="infoLogin">Login</string>
+    <string name="infoSenha">Password</string>
+
+    <string name="conexao">connection</string>
+    <string name="btIluminacao">Lighting</string>
+    <string name="infoServidro">Server</string>
+</resources>

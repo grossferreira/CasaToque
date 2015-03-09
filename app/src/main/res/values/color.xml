@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_title">#fff</color>             <!-- descricao do menu (cor branco)-->
+    <color name="list_background">#303030</color>          <!-- menu como todo (cor cinza escuro)-->
+    <color name="list_background_pressed">#1E90FF</color>  <!-- item do menu selecionado (cor azul claro) -->
+    <color name="list_divider">#272727</color>             <!-- divisao dos itens do menu (cor cinza claro) -->
+    <color name="counter_text_bg">#626262</color>          <!-- retangulo que envolve a numeracao dos itens do menu (cor cinza claro) -->
+    <color name="counter_text_color">#c5c4c4</color>       <!-- numeracao dos itens do menu (cor cinza claro) -->
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundoprinc">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@layout/header_gradient"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_people" />
+    </LinearLayout>
+
+    <DigitalClock
+        android:layout_width="55dp"
+        android:layout_height="60dp"
+        android:id="@+id/digitalClock"
+        android:gravity="center"
+        android:typeface="monospace"
+        android:textSize="50sp"
+        android:layout_below="@+id/header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/imageButton4"
+        android:layout_toStartOf="@+id/imageButton4" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageButton4"
+        android:background="@drawable/nublado"
+        android:layout_below="@+id/digitalClock"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText4"
+        android:gravity="center"
+        android:text="SAB, 28 DE FEVEREIRO"
+
+        android:typeface="normal"
+        android:textSize="12sp"
+        android:layout_alignBottom="@+id/imageButton4"
+        android:layout_alignLeft="@+id/imageButton4"
+        android:layout_alignStart="@+id/imageButton4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:text="SERRA"
+        android:typeface="normal"
+        android:textSize="12sp"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:text="28º C"
+        android:typeface="normal"
+        android:textSize="40sp"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_toRightOf="@+id/imageButton4"
+        android:layout_toEndOf="@+id/imageButton4" />
+
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<!-- Descrição do nome do aplicativo -->
+    <string name="app_name">Casa Toque</string>
+   
+    <!-- Descrição do nome do menu do aplicativo -->
+    <string name="configuracao">Configuração</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="politicPrivacidade">Política de Privacidade</string>
+    <string name="centralAjuda">Central de Ajuda</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="sobre">Sobre</string>
+    <string name="Sair">Sair</string>
+    
+    <!-- Descrição do menu de itens do aplicativo -->
+    <string-array name="nav_drawer_items">
+        <item >Principal</item>
+        <item >Iluminação</item>
+        <item >Irrigação</item>
+        <item >Climatização</item>
+        <item >Multimidia</item>
+        <item >Segurança</item>
+    </string-array>
+    
+    <!-- Icones do menu de itens do palicativo -->
+    <!-- Mantenha-os na ordem que os títulos estão em exibição -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_lampada</item>
+        <item>@drawable/ic_jardin</item>
+        <item>@drawable/ic_climatizacao</item>
+        <item>@drawable/ic_midia</item>
+        <item>@drawable/ic_seguranca</item>
+    </array>
+
+    <!-- Tela de entrar principal -->
+    <string name="btEntrar">Entrar</string>
+
+    <!-- Tela de configurações do aplicativo -->
+     <string name="endServidor">Endereço do Servidor</string>
+     <string name="confporta">Porta</string>
+     <string name="confhttp">HTTP</string>
+     <string name="confhttps">HTTPS</string>
+     <string name="confVoltar">Voltar</string>
+   	 <string name="configSalvar">Salvar</string>
+   	 
+   	 <!-- Descrição da legenda dos campos -->
+   	 <string name="infoServidor">ip do servidor ex: 192.168.1.3</string>
+    
+   	 <!-- Descrição do icone -->
+    <string name="imgConfig">Icone da página Configurações</string>
+   	 
+    <!-- Descrição do login senha de todas as telas com essa legenda -->
+     <string name="login">Usuário</string>
+     <string name="senha">Senha</string>
+     <string name="lembLogin">Lembrar Usuário</string>
+     <string name="conexao">Conexão</string>
+     <string name="btentrar">Entrar</string>
+     
+    <!-- Descrição da legenda dos campo login senha de todas as telas com essa legenda -->
+     <string name="infoLogin">informe o Login</string>
+     <string name="infoSenha">informe a senha</string>
+     
+	<!-- Descrição do icone -->
+    <string name="imgCena">Icone da página cena</string>
+    
+    <!-- Tela Cena ajuda -->
+    <string name="imgCenaAjuda">Icone da página cena Ajuda</string>
+    
+    <!-- Tela Cena climatização -->
+    <string name="imgClimatizacao">Icone da página Climatização</string>
+    
+    
+    <!-- Tela Cena irrigação -->
+    <string name="imgIrrigacao">Icone da página Irrigação</string>
+    <string name="relogio">Relogio</string>
+    
+       <!-- Tela Cena iluminação -->
+
+    <string name="imgIluminacao">Icone da página Iluminação</string>
+    <string name="btIluminacao">Iluminação</string>
+    <string name="infoServidro">Servidor</string>
+</resources>

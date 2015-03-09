@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    >
+    <TextView
+    	android:id="@+id/nomeDisp" 
+    	android:textSize="16sp"
+    	android:textColor="#FFFFFF"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:singleLine="true"
+    	android:layout_centerHorizontal="true"
+    />
+	<LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/nomeDisp">
+    	<CheckBox 
+    		android:id="@+id/interruptor" 
+    		android:layout_width="60dp" 
+    		android:layout_height="60dp"
+    		android:layout_gravity="center_vertical"
+    		android:button="@drawable/translucent"
+    	/>
+		<SeekBar 
+			android:id="@+id/dimmer" 
+			android:layout_width="220dp"
+			android:paddingLeft="8dp"
+			android:paddingRight="8dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+		/>		
+	</LinearLayout>
+	<ImageView
+		android:layout_width="42dp"
+    	android:layout_height="77dp"
+    	android:src="@drawable/grid"
+    	android:scaleType="fitXY"
+    	android:layout_alignParentRight="true"
+    />
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.ar.casatoque"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icone"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:logo="@drawable/logo">
+        <activity
+            android:name="br.com.ar.casatoque.controle.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="br.com.ar.casatoque.controle.LoginActivity"></activity>
+        <activity android:name="br.com.ar.casatoque.controle.Principal"></activity>
+        <activity android:name="br.com.ar.casatoque.controle.Lampadas"></activity>
+        <activity android:name="br.com.ar.casatoque.controle.Perfis"></activity>
+        <activity android:name=".controle.Conexao"></activity>
+        <activity android:name=".controle.Configuracoes"></activity>
+        <activity android:name=".menu.PoliticasPrivacidade"></activity>
+        <activity android:name=".menu.CentralAjuda"></activity>
+        <activity android:name=".menu.Tutorial"></activity>
+        <activity android:name=".menu.Sobre"></activity>
+        <activity android:name=".controle.HisCenas"></activity>
+        <activity android:name=".controle.EntrarActivity"></activity>
+        <activity android:name=".controle.PlayListActivity"></activity>
+
+        
+    </application>
+
+</manifest>

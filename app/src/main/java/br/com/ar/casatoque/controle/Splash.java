@@ -38,7 +38,7 @@ public class Splash extends Activity {
 
 				if (mblnClicou) {
                     Log.v("Logger","clicou na tela de splash");
-					// fechar a tela de Splash testeee
+					// fechar a tela de Splash
 					finish();
 
 					// Carrega a Activity Principal

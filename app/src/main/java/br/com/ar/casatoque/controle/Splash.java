@@ -33,7 +33,7 @@ public class Splash extends Activity {
 						mblnClicou = true;
 					}
 				} catch (InterruptedException ex) {
-                    Log.e("Erro","Erro ao ao carragar o metodo splash");
+                    Log.e("Erro","Erro ao ao carregar o metodo splash");
 				}
 
 				if (mblnClicou) {

@@ -85,10 +85,10 @@ public class Multimidia extends Fragment implements MediaPlayer.OnCompletionList
         mp.setOnCompletionListener(this); // Important
 
         // Getting all songs list
-        //songsList = songManager.getPlayList();
+       // songsList = songManager.getPlayList();
 
         // By default play first song
-        /////////playSong(0);
+        //playSong(0);
 
 /**********************************************************************************************************************
  * Play button click event
@@ -174,7 +174,7 @@ public class Multimidia extends Fragment implements MediaPlayer.OnCompletionList
             public void onClick(View arg0) {
                 // check if next song is there or not
                 if (currentSongIndex < (songsList.size() - 1)) {
-                    //  playSong(currentSongIndex + 1);
+                     // playSong(currentSongIndex + 1);//moificando aqui
                     currentSongIndex = currentSongIndex + 1;
                 } else {
                     /////////////// play first song

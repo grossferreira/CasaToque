@@ -19,7 +19,7 @@ public class SongsManager {
 	 * Function to read all mp3 files from sdcard
 	 * and store the details in ArrayList
 	 * */
-	/**public ArrayList<HashMap<String, String>> getPlayList(){
+	public ArrayList<HashMap<String, String>> getPlayList(){
 		File home = new File(MEDIA_PATH);
 
 		if (home.listFiles(new FileExtensionFilter()).length > 1) {
@@ -34,7 +34,7 @@ public class SongsManager {
 		}
 		// return songs list array
 		return songsList;
-	}*/
+	}
 	
 	/**
 	 * Class to filter files which are having .mp3 extension

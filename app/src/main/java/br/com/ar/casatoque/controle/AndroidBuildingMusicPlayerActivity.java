@@ -244,7 +244,7 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
 		
 		/**
 		 * Button Click event for Play list click event
-		 * Launches list activity which displays list of songs
+		 * Launches list activity which displays list of songs teste
 		 * */
 		btnPlaylist.setOnClickListener(new View.OnClickListener() {
 			

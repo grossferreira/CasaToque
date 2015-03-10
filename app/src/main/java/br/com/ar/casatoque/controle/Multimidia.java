@@ -20,7 +20,7 @@ public class Multimidia extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.player, container, false);
+        View rootView = inflater.inflate(R.layout.multimidia, container, false);
 
         return rootView;
     }

@@ -44,8 +44,7 @@ public class AndroidBuildingMusicPlayerActivity extends Activity implements OnCo
 	private int currentSongIndex = 0; 
 	private boolean isShuffle = false;
 	private boolean isRepeat = false;
-	private ArrayList<HashMap<String, String>> songsList = new ArrayList
-            <HashMap<String, String>>();
+	private ArrayList<HashMap<String, String>> songsList = new ArrayList<HashMap<String, String>>();
 	
 
 	@Override

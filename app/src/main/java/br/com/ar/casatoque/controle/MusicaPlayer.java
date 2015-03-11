@@ -77,12 +77,10 @@ public class MusicaPlayer extends Activity implements OnCompletionListener, Seek
 		mp.setOnCompletionListener(this); // Important
 		
 		// Getting all songs list
-//comentado
-songsList = songManager.getPlayList();
+//comentado    songsList = songManager.getPlayList();
 		
 		// By default play first song
-//comentado
-playSong(0);
+//comentado    playSong(0);
 				
 		/**
 		 * Play button click event

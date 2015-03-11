@@ -39,6 +39,7 @@
         <activity android:name=".controle.EntrarActivity"></activity>
         <activity android:name=".controle.PlayListActivity"></activity>
 
+
         
     </application>
 

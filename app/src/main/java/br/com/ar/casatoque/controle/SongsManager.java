@@ -1,5 +1,7 @@
 package br.com.ar.casatoque.controle;
 
+
+import android.os.Environment;//novo
 import java.io.File;
 import java.io.FilenameFilter;
 import java.util.ArrayList;
@@ -7,8 +9,9 @@ import java.util.HashMap;
 
 public class SongsManager {
 	// SDCard Path
-	final String MEDIA_PATH = new String("/sdcard/");
-	private ArrayList<HashMap<String, String>> songsList = new ArrayList<HashMap<String, String>>();
+	//final String MEDIA_PATH = new String("/sdcard/");
+    final String MEDIA_PATH =  Environment.getExternalStorageDirectory(). getPath();
+    private ArrayList<HashMap<String, String>> songsList = new ArrayList<HashMap<String, String>>();
 	
 	// Constructor
 	public SongsManager(){

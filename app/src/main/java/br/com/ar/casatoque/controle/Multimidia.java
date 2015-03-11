@@ -40,8 +40,8 @@ public class Multimidia extends Fragment {
         musica.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
 
-               //  i = new Intent(getActivity(), MusicaPlayer.class);
-                // startActivity(i);
+                 i = new Intent(getActivity(), MusicaPlayer.class);
+                 startActivity(i);
                  //overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right); //transicao entre as telas
 
             }

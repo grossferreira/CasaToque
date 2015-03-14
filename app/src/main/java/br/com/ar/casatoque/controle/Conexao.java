@@ -9,7 +9,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Scanner;
-
 import br.com.ar.casatoque.comum.ConfConexao;
 import br.com.ar.casatoque.comum.Dialog;
 import android.app.Activity;
@@ -117,9 +116,9 @@ public class Conexao extends Activity implements OnClickListener, OnKeyListener{
 				String response = conexao.enviaMensagem(ConfConexao.MSG_AUTENTICACAO, u, s, "0");
 				
 				if(response.equals(ConfConexao.MSG_ERRO)){
-					showDialog.Autenticacao(getApplicationContext(), "Erro", "Erro na autenticacao");
+					showDialog.Autenticacao(this, "Erro", "Erro na autenticacao");
 				}else if(response.equals("")){
-					showDialog.ConexaoServidor(getApplicationContext(), "Erro", "Erro na conexao com o servidor!");
+					showDialog.ConexaoServidor(this, "Erro", "Erro na conexao com o servidor!");
 				}else{
 					this.setResult(Activity.RESULT_OK);
 					this.finish();

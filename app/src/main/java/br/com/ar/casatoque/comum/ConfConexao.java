@@ -191,12 +191,14 @@ public class ConfConexao {
 
 	    @Override
 	    public Socket createSocket(Socket socket, String host, int port, boolean autoClose) throws IOException, UnknownHostException {
-	        return sslContext.getSocketFactory().createSocket(socket, host, port, autoClose);
+
+            return sslContext.getSocketFactory().createSocket(socket, host, port, autoClose);
 	    }
 
 	    @Override
 	    public Socket createSocket() throws IOException {
-	        return sslContext.getSocketFactory().createSocket();
+
+            return sslContext.getSocketFactory().createSocket();
 	    }
 	}
 }

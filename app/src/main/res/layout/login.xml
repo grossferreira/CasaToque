@@ -43,34 +43,40 @@
           android:layout_alignParentLeft="true"
           android:layout_alignParentTop="true"
           android:orientation="vertical"
-          android:padding="10dip" >
+          android:padding="10dip"
+          android:id="@+id/linearLayout">
       </LinearLayout>
 
       <Button
           android:id="@+id/btnLogin"
           android:layout_width="fill_parent"
           android:layout_height="wrap_content"
-          android:layout_alignParentBottom="true"
           android:background="@drawable/layout_bt_login"
-          android:text="@string/btentrar" />
+          android:text="@string/btentrar"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true" />
 
 
       <TextView
           android:id="@+id/link_to_register"
           android:layout_width="fill_parent"
           android:layout_height="wrap_content"
-          android:layout_above="@+id/btnLogin"
-          android:layout_alignParentLeft="true"
-          android:layout_marginBottom="20dp"
           android:gravity="center"
           android:text="@string/conexao"
           android:textColor="#0b84aa"
-          android:textSize="20dip" />
+          android:textSize="20dip"
+          android:layout_above="@+id/btnLogin"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true" />
 
       <RelativeLayout
           android:id="@+id/relativeLayout1"
-          android:layout_width="fill_parent"
-          android:layout_height="fill_parent" >
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentTop="true"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true">
 
           <RadioGroup
               android:id="@+id/grPorta"
@@ -97,6 +103,7 @@
               android:layout_alignParentRight="true"
               android:layout_below="@+id/login"
               android:ems="10"
+              android:drawableRight="@drawable/ic_login"
               android:hint="@string/infoLogin" />
 
           <TextView
@@ -108,14 +115,6 @@
               android:layout_marginTop="169dp"
               android:text="@string/login" />
 
-          <ImageView
-              android:id="@+id/imageView1"
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_alignBottom="@+id/login"
-              android:layout_centerHorizontal="true"
-              android:src="@drawable/logincadeado" />
-
           <EditText
               android:id="@+id/etSenha"
               android:layout_width="wrap_content"
@@ -124,18 +123,28 @@
               android:layout_alignParentRight="true"
               android:layout_below="@+id/senha"
               android:ems="10"
-              android:inputType="textPassword" 
+              android:inputType="textPassword"
+              android:drawableRight="@drawable/ic_padlok_login"
               android:hint="@string/infoSenha" />
 
-          <CheckBox
-              android:id="@+id/lembLogin"
+          <ImageView
+              android:id="@+id/imageView1"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:layout_alignParentLeft="true"
-              android:layout_below="@+id/etSenha"
-              android:text="@string/lembLogin" />
+              android:src="@drawable/logincadeado"
+              android:layout_alignBottom="@+id/login"
+              android:layout_centerHorizontal="true" />
 
       </RelativeLayout>
+
+      <CheckBox
+          android:id="@+id/lembLogin"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/lembLogin"
+          android:layout_below="@+id/relativeLayout1"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true" />
 
   </RelativeLayout>
 

@@ -11,10 +11,13 @@
     android:weightSum="1">
 
     <Button
-        android:layout_width="370dp"
-        android:layout_height="162dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:id="@+id/btEntrar"
-        android:text="@string/btEntrar"/>
+        android:text="@string/btEntrar"
+        android:drawableLeft = "@drawable/padlock_entrar"
+        android:textAlignment="center"
+        android:layout_weight="0.20" />
 
     <ImageView
         android:layout_width="362dp"

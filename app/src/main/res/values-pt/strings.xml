@@ -76,8 +76,7 @@
     <string name="imgIrrigacao">Icone da página Irrigação</string>
     <string name="relogio">Relogio</string>
     
-       <!-- Tela Cena iluminação -->
-
+    <!-- Tela Cena iluminação -->
     <string name="imgIluminacao">Icone da página Iluminação</string>
     <string name="btIluminacao">Iluminação</string>
     <string name="infoServidro">Servidor</string>

@@ -119,6 +119,7 @@ public final class R {
         public static final int TextView04=0x7f0b0040;
         public static final int addBtnFim=0x7f0b003d;
         public static final int addBtnIni=0x7f0b003c;
+        public static final int alarme=0x7f0b0060;
         public static final int botaoLampada=0x7f0b0026;
         public static final int btDialSimp=0x7f0b0027;
         public static final int btEntrar=0x7f0b001e;
@@ -134,9 +135,10 @@ public final class R {
         public static final int btnRegister=0x7f0b0012;
         public static final int btnRepeat=0x7f0b005c;
         public static final int btnShuffle=0x7f0b005d;
-        public static final int centralAjuda=0x7f0b0060;
+        public static final int cameras=0x7f0b0061;
+        public static final int centralAjuda=0x7f0b0062;
         public static final int confConexao=0x7f0b0011;
-        public static final int configuracao=0x7f0b0063;
+        public static final int configuracao=0x7f0b0065;
         public static final int counter=0x7f0b001a;
         public static final int diaSelec=0x7f0b004a;
         public static final int digitalClock=0x7f0b0020;
@@ -185,7 +187,7 @@ public final class R {
         public static final int nomeDisp=0x7f0b002f;
         public static final int player_footer_bg=0x7f0b0052;
         public static final int player_header_bg=0x7f0b004e;
-        public static final int politPrivacidade=0x7f0b0061;
+        public static final int politPrivacidade=0x7f0b0063;
         public static final int porta_label=0x7f0b000c;
         public static final int progr=0x7f0b005f;
         public static final int rbDataEspec=0x7f0b0049;
@@ -193,11 +195,11 @@ public final class R {
         public static final int relativeLayout1=0x7f0b0036;
         public static final int relogio=0x7f0b0025;
         public static final int root=0x7f0b002a;
-        public static final int sair=0x7f0b0065;
+        public static final int sair=0x7f0b0067;
         public static final int seekBar1=0x7f0b0015;
         public static final int seekBar2=0x7f0b0017;
         public static final int senha=0x7f0b0009;
-        public static final int sobre=0x7f0b0064;
+        public static final int sobre=0x7f0b0066;
         public static final int songCurrentDurationLabel=0x7f0b005a;
         public static final int songProgressBar=0x7f0b0058;
         public static final int songThumbnail=0x7f0b0051;
@@ -210,7 +212,7 @@ public final class R {
         public static final int tipos_dispositivos=0x7f0b003a;
         public static final int title=0x7f0b0019;
         public static final int toggleButton=0x7f0b0029;
-        public static final int tutorial=0x7f0b0062;
+        public static final int tutorial=0x7f0b0064;
         public static final int tvVarLabel=0x7f0b001c;
         public static final int txtItem1=0x7f0b0014;
         public static final int txtItem2=0x7f0b0016;

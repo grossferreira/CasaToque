@@ -197,7 +197,7 @@ public final class R {
         public static final int linearLayout1=0x7f0b0012;
         public static final int linearLayout2=0x7f0b002c;
         public static final int link_to_register=0x7f0b0045;
-        public static final int list=0x7f0b002d;
+        public static final int list_eventos=0x7f0b002d;
         public static final int list_slidermenu=0x7f0b0002;
         public static final int login=0x7f0b0013;
         public static final int nomeDisp=0x7f0b003f;

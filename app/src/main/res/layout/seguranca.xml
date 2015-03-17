@@ -22,30 +22,33 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/alarme"
+        android:text="@string/btAlarme"
+        android:id="@+id/btAlarme"
         android:layout_below="@+id/header"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/btEventos"
+        android:layout_alignEnd="@+id/btEventos" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="@string/btCameras"
         android:id="@+id/cameras"
-        android:layout_below="@+id/alarme"
+        android:layout_below="@+id/btAlarme"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:singleLine="false"
+        android:layout_alignRight="@+id/btAlarme"
+        android:layout_alignEnd="@+id/btAlarme" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/logSeguranca"
+        android:text="@string/btLogSeguranca"
+        android:id="@+id/btEventos"
         android:layout_below="@+id/cameras"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="167dp"
-        android:layout_marginEnd="167dp" />
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>

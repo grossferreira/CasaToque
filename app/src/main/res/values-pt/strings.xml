@@ -80,4 +80,23 @@
     <string name="imgIluminacao">Icone da página Iluminação</string>
     <string name="btIluminacao">Iluminação</string>
     <string name="infoServidro">Servidor</string>
+
+    <!-- Segurança-->
+    <string name="btAlarme">Alarme</string>
+    <string name="btCameras">Cameras</string>
+    <string name="btLogSeguranca">Logs Segurança</string>
+    <!-- Alarme-->
+    <string name="btNum1">1</string>
+    <string name="btNum2">2</string>
+    <string name="btNum3">3</string>
+    <string name="btNum4">4</string>
+    <string name="btNum5">5</string>
+    <string name="btNum6">6</string>
+    <string name="btNum7">7</string>
+    <string name="btNum8">8</string>
+    <string name="btNum9">9</string>
+    <string name="btNum0">0</string>
+    <string name="btAtiva">Ativar</string>
+    <string name="btAnular">Anular</string>
+
 </resources>

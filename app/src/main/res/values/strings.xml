@@ -52,4 +52,22 @@
     <string name="conexao">connection</string>
     <string name="btIluminacao">Lighting</string>
     <string name="infoServidro">Server</string>
+
+    <!-- Segurança-->
+    <string name="btAlarme">alarm</string>
+    <string name="btCameras">Can</string>
+    <string name="btLogSeguranca">Logs Security</string>
+    <!-- Alarme-->
+    <string name="btNum1">1</string>
+    <string name="btNum2">2</string>
+    <string name="btNum3">3</string>
+    <string name="btNum4">4</string>
+    <string name="btNum5">5</string>
+    <string name="btNum6">6</string>
+    <string name="btNum7">7</string>
+    <string name="btNum8">8</string>
+    <string name="btNum9">9</string>
+    <string name="btNum0">0</string>
+    <string name="btAtiva">activate</string>
+    <string name="btAnular">cancel</string>
 </resources>

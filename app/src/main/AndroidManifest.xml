@@ -40,8 +40,13 @@
         <activity android:name=".controle.EntrarActivity"></activity>
         <activity android:name=".controle.PlayListActivity"></activity>
         <activity android:name=".controle.MusicaPlayer"></activity>
+        <activity android:name=".controle.Alarme"></activity>
+        <activity android:name=".controle.Eventos"></activity>
 
-        
+
+
+
+
     </application>
 
 </manifest>

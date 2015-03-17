@@ -42,19 +42,19 @@ public class LoginActivity extends Activity {
                 	usuario = (EditText) findViewById(R.id.etLogin); //pegando o valor do campo na tela e enviando para a variavel;
                     senha = (EditText) findViewById(R.id.etSenha);   
                   //  checkBox = (CheckBox) findViewById(R.id.lembLogin);
-                	if(usuario.getText().toString().equals("") || senha.getText().toString().equals("")){
+               /** 	if(usuario.getText().toString().equals("") || senha.getText().toString().equals("")){
                 		// btnLogin.setEnabled(false);
                 		msg.aviso(LoginActivity.this, "Aviso", "Todos os campos devem ser preenchidos!");
                 	}else
-                		 if(usuario.getText().toString().equals("admin") && senha.getText().toString().equals("admin")){
+                */	// if(usuario.getText().toString().equals("admin") && senha.getText().toString().equals("admin")){
                     		  Log.v("Login","Inicinado a tela principal do sistema apos o login");
                     		  Intent i = new Intent(getApplicationContext(), Principal.class);
                     		  startActivity(i);
                     		 
-                		 }
-                		 else{
-                			 msg.aviso(LoginActivity.this, "Aviso", "Login ou senha incorreto(s)!");
-                		 }
+                	//	 }
+                	//	 else{
+                	//		 msg.aviso(LoginActivity.this, "Aviso", "Login ou senha incorreto(s)!");
+                	//	 }
                 	 
                 }
             });

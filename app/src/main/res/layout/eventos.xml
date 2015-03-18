@@ -14,7 +14,8 @@
         android:layout_alignParentTop="true"
         android:background="@layout/header_gradient"
         android:paddingBottom="5dip"
-        android:paddingTop="5dip">
+        android:paddingTop="5dip"
+        android:layout_gravity="center_horizontal">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -24,15 +25,11 @@
     </LinearLayout>
 
     <ListView
-        android:id="@+id/list_eventos"
-        android:layout_width="match_parent"
-        android:layout_height="408dp"
-        android:divider="#FFECECEC"
-        android:dividerHeight="2sp"
-        android:layout_weight="1.24" />
-
-
-
+        android:id="@+id/FootballLegend_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingTop="5dp" >
+    </ListView>
 
 
 </LinearLayout>

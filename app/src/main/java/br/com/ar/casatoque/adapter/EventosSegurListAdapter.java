@@ -32,6 +32,7 @@ public class EventosSegurListAdapter extends ArrayAdapter<EventosSegur> {
     public View getView ( int position, View convertView, ViewGroup parent ) {
         convertView = ( RelativeLayout ) inflater.inflate( resource, null );
         EventosSegur Legend = getItem( position );
+
         TextView legendName = (TextView) convertView.findViewById(R.id.legendName);
         legendName.setText(Legend.getName());
 
@@ -44,11 +45,14 @@ public class EventosSegurListAdapter extends ArrayAdapter<EventosSegur> {
         Drawable image = context.getResources().getDrawable(imageResource);
         legendImage.setImageDrawable(image);
 
-        ImageView NationImage = (ImageView) convertView.findViewById(R.id.Nation);
+        TextView dataHora = (TextView) convertView.findViewById(R.id.dataHora);
+        dataHora.setText(Legend.getNation());
+
+       /** ImageView NationImage = (ImageView) convertView.findViewById(R.id.Nation);
         uri = "drawable/" + Legend.getNation();
         imageResource = context.getResources().getIdentifier(uri, null, context.getPackageName());
         image = context.getResources().getDrawable(imageResource);
-        NationImage.setImageDrawable(image);
+        NationImage.setImageDrawable(image);*/
 
         return convertView;
     }

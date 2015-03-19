@@ -42,6 +42,7 @@
         <activity android:name=".controle.MusicaPlayer"></activity>
         <activity android:name=".controle.Alarme"></activity>
         <activity android:name=".controle.Eventos"></activity>
+        <activity android:name=".controle.EventosSegur"></activity>
 
 
 

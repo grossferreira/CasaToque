@@ -49,7 +49,7 @@ public class Seguranca extends Fragment implements OnClickListener {
             break;
 
             case R.id.btEventos:
-                i = new Intent(getActivity(), Eventos.class);
+                i = new Intent(getActivity(), EventosSegur.class);
             break;
 
         }

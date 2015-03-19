@@ -94,7 +94,7 @@ public class Principal extends FragmentActivity {
 	 
 	        // Exibe a notificacao
 	        
-	        criarNotificacao(this, tickerText, titulo, mensagem, Multimidia.class);
+	        criarNotificacao(this, tickerText, titulo, mensagem, Eventos.class);
 	
 
 	
@@ -168,14 +168,14 @@ public class Principal extends FragmentActivity {
 
 /////////////////////////////////// notifiacao
 	//protected void criarNotificacao(Context context, CharSequence msnBarStatus, CharSequence titulo, CharSequence mensagem, Class activity) {
-	protected void criarNotificacao(Context context, CharSequence msnBarStatus, CharSequence titulo, CharSequence mensagem, Class<Multimidia> activity) {
+	protected void criarNotificacao(Context context, CharSequence msnBarStatus, CharSequence titulo, CharSequence mensagem, Class<Eventos> activity) {
         // Recupera o servico do NotificationManager
         NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         Notification n = new Notification(R.drawable.ic_communities, msnBarStatus, System.currentTimeMillis());
         
         //Notification n = new Notification(R.drawable.ic_communities, mensagemBarraStatus, System.currentTimeMillis());
         // PendingIntent para executar a Activity se o usuario selecionar a notificacao
-        PendingIntent p = PendingIntent.getActivity(this, 0, new Intent(this, Climatizacao.class), 0);
+        PendingIntent p = PendingIntent.getActivity(this, 0, new Intent(this, Eventos.class), 0);
  
         // Flag utilizada para remover a notificacao da barra de status
         // quando o usuario clicar nela
